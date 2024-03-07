@@ -3,9 +3,10 @@ from web3 import Web3
 ganache_url = "http://127.0.0.1:7545"
 web3 = Web3(Web3.HTTPProvider(ganache_url))
 
-account_1 = '' # Fill me in
-account_2 = '' # Fill me in
-private_key = '' # Fill me in
+#Fill them in
+account_1 = '' # Senders Address
+account_2 = '' # Receivers Address
+private_key = '' # The senders private key
 
 nonce = web3.eth.getTransactionCount(account_1)
 
